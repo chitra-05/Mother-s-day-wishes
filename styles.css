@@ -36,14 +36,19 @@ body {
 }
 .hero,
 .game-section,
-.word-game-section,
-.love-cards-section{
+.word-game-section{
     min-height:100vh;
     scroll-snap-align:start;
 
     display:flex;
     justify-content:center;
     align-items:center;
+}
+
+.love-cards-section{
+    min-height:100vh;
+    scroll-snap-align:start;
+    padding:90px 20px;
 }
 body{
     font-family:'Poppins',sans-serif;
